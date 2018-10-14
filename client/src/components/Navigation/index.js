@@ -43,6 +43,9 @@ const NavigationNonAuth = () => (
     <li>
       <Link to={routes.LANDING}>Landing</Link>
     </li>
+    <li>
+      <Link to={routes.TIPPER_FOR_COMPUTER_LABS}>Tipper</Link>
+    </li>
   </ul>
 );
 

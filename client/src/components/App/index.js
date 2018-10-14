@@ -8,6 +8,7 @@ import SignInPage from '../SignIn';
 import AccountPage from '../Account';
 import AdminPage from '../Admin';
 import withSession from '../Session/withSession';
+import TipperForComputerLabs from '../TipperForComputerLabs';
 
 import * as routes from '../../constants/routes';
 import history from '../../constants/history';
@@ -44,7 +45,25 @@ const App = ({ session, refetch }) => (
         path={routes.ADMIN}
         component={() => <AdminPage />}
       />
+            <Route
+        exact
+        path={routes.ADMIN}
+        component={() => <AdminPage />}
+      />
+       <Route
+        exact
+        path={routes.TIPPER_FOR_COMPUTER_LABS}
+        component={() => <TipperForComputerLabs />}
+      />
+
+      
+
+      hello
+
+
     </div>
+
+
   </Router>
 );
 

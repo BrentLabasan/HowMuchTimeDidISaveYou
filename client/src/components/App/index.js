@@ -18,8 +18,6 @@ const App = ({ session, refetch }) => (
     <div>
       <Navigation session={session} />
 
-      <hr />
-
       <Route
         exact
         path={routes.LANDING}
@@ -58,7 +56,7 @@ const App = ({ session, refetch }) => (
 
       
 
-      hello
+      
 
 
     </div>

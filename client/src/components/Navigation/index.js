@@ -36,17 +36,21 @@ const NavigationAuth = ({ session }) => (
 );
 
 const NavigationNonAuth = () => (
+  <nav>
   <ul>
+  <li>
+      <Link to={routes.TIPPER_FOR_COMPUTER_LABS}>Tipper</Link>
+    </li>
+    
     <li>
       <Link to={routes.SIGN_IN}>Sign In</Link>
     </li>
     <li>
       <Link to={routes.LANDING}>Landing</Link>
     </li>
-    <li>
-      <Link to={routes.TIPPER_FOR_COMPUTER_LABS}>Tipper</Link>
-    </li>
+
   </ul>
+  </nav>
 );
 
 export default Navigation;
